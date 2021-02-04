@@ -3,11 +3,9 @@
 namespace App\Controller;
 
 use Exception;
-use App\ResponsePayload;
 use App\Services\StarWarsApiService;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\Routing\Annotation\Route;
-use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 
 class CharacterController extends BaseController
 {
