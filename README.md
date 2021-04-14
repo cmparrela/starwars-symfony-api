@@ -22,6 +22,11 @@ Por último rode os migration para criar a base inicial
 
 Agora você deve ser capaz de visitar a página da aplicação http://localhost/ e começar a usar o sistema
 
+## Objetivo
+
+Está é uma API RESTFul que consulta os personagens do Star Wars e permite salvar alguns deles como favoritos. Essa API consulta o https://swapi.dev/api/people  para pegar os personagens e armazena em um banco MySQL os personagens favoritos
+
+
 ## Endpoints
 - `GET characters`, Lista todos os personagens
 - `GET characters/{id}`, Mostra os detalhes de um personagem
@@ -30,4 +35,10 @@ Agora você deve ser capaz de visitar a página da aplicação http://localhost/
 - `DELETE favorites/{id}`, Delete um personagem favorito
  
 Para mais detalhes sobre os endpoints visite a documentação completa https://documenter.getpostman.com/view/1472725/TW73FmHM
+
+## TODO
+- Criar a documentação da API em Markdown
+- Melhorar o Docker para ele executar todas as dependências do ambiente, sendo necessário apenas um comando para criar o ambiente
+- Implementar Testes
+- Construir o front-end em react
  
